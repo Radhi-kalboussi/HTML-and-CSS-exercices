@@ -1,0 +1,13 @@
+body {
+    font-family: outfit, young-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+
+table {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,111 @@
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.omelette-img {
+    align-self: center;
+    width: 840px;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.intro-title {
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.intro {
+    white-space: wrap;
+    margin-bottom: 30px;
+}
+
+.times {
+    background-color: rgb(245, 241, 241);
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 20px 20px 10px 20px;
+    border-radius: 8px;
+    line-height: 28px;
+}
+
+.time-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(126, 29, 45);
+}
+
+.sub-title {
+    color: rgb(77, 60, 60);
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.ing-el,
+instructions {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 209, 209);
+}
+
+.Ing {
+    font-weight: bold;
+    font-size: 28px;
+    font-style: initial;
+    color: rgb(126, 29, 45);
+}
+
+.ing-items {
+    padding-left: 30px;
+}
+
+ul,
+ol {
+    line-height: 30px;
+}
+
+.ins-title {
+    font-weight: bold;
+    font-size: 28px;
+    font-style: initial;
+    color: rgb(126, 29, 45);
+}
+
+.nutrition-title {
+    font-weight: bold;
+    font-size: 28px;
+    font-style: initial;
+    color: rgb(126, 29, 45);
+}
+
+.column2 {
+    font-weight: bold;
+    color: rgb(126, 29, 45);
+}
+
+.rows {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+}
+
+.page {
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 10px 200px;
+    background-color: white;
+    color: rgb(78, 59, 59);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
